@@ -111,7 +111,7 @@ install_ssh_vpn() {
     echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
     sleep 2
     clear
-    curl "https://raw.githubusercontent.com/ianlunatix/lunatix_everbody/main/menu/ssh-vpn.sh" | bash
+    curl "https://raw.githubusercontent.com/ianlunatix/lunatix_everbody/main/shws/ssh-vpn.sh" | bash
     sleep 2
 
     wget https://raw.githubusercontent.com/ianlunatix/lunatix_everbody/main/all_in/nginx-ssl.sh -O nginx-ssl.sh
@@ -182,7 +182,7 @@ install_xray() {
     echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
     sleep 2
     curl "https://raw.githubusercontent.com/ianlunatix/lunatix_everbody/main/xray/insray.sh" | bash
-    curl "https://raw.githubusercontent.com/ianlunatix/lunatix_everbody/main/arca.sh" | bash
+    curl "https://raw.githubusercontent.com/ianlunatix/lunatix_everbody/main/all_in/arca.sh" | bash
     echo -e "XRAY installation completed."
     sleep 2
 }
